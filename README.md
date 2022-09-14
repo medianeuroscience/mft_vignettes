@@ -13,7 +13,7 @@ Directory structure follows the analysis presented in the manuscript.
     - `first_lv.py` nipype pipeline for performing first-level GLM in SPM12 on preprocessed vignettes 
     - `first_lv.sh` bash code for distributing nipype across HPC 
     - `second-lv.ipynb` code for running second-level (group) t-tests for GLM contrasts 
-    - `surfplot.ipynb' code visualizing SPMs on cortical surfaces via surfplot
+    - `surfplot.ipynb` code visualizing SPMs on cortical surfaces via surfplot
     
 - mvpa:
     - `prepbetas.ipynb` code for extracting beta estimates from first-level SPMs 
