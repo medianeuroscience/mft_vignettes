@@ -1,5 +1,5 @@
 # mft_vignettes
-Code accompanying the manuscript: An fMRI investigation of moral foundations theory
+Code accompanying the paper: Moral Foundations Elicit Shared and Dissociable Cortical Activation Modulated by Political Ideology
 
 ## Directory Structure 
 
@@ -17,7 +17,8 @@ Directory structure follows the analysis presented in the manuscript.
     
 - mvpa:
     - `prepbetas.ipynb` code for extracting beta estimates from first-level SPMs 
-    - `mvpa.ipynb` code for training and evaluating the cross-validated multivoxel pattern classifier
+    - `svm_fc.ipynb` code for training and evaluating the LOSO forced-choice, pairwise SVM 
+    - `decoder_nilearn.ipynb` code for training and evaluating the within (LORO) and between (LOSO) cross-validated multiclass SVM
     
 - rsa:
     - `rsa.ipynb` code for running the representational similarity analysis. 
