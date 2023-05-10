@@ -10,8 +10,8 @@ Directory structure follows the analysis presented in the manuscript.
     - `lme_vignettes.html` R code for running linear mixed-effect models for moral judgment and response times
     
 - glm:
-    - `first_lv.py` nipype pipeline for performing first-level GLM in SPM12 on preprocessed vignettes 
-    - `first_lv.sh` bash code for distributing nipype across HPC 
+    - `first_lv*.py` nipype pipelines for performing first-level GLM in SPM12 on preprocessed vignettes 
+    - `first_lv*.py` nltool pipeline for creating moral wrongness beta maps
     - `second-lv.ipynb` code for running second-level (group) t-tests for GLM contrasts 
     - `surfplot.ipynb` code visualizing SPMs on cortical surfaces via surfplot
     
