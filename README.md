@@ -17,12 +17,11 @@ Directory structure follows the analysis presented in the manuscript.
     
 - mvpa:
     - `prepbetas.ipynb` code for extracting beta estimates from first-level SPMs 
-    - `svm_fc.ipynb` code for training and evaluating the LOSO forced-choice, pairwise SVM 
-    - `decoder_nilearn.ipynb` code for training and evaluating the within (LORO) and between (LOSO) cross-validated multiclass SVM
+    - `run_mvpa.ipynb` code for all MVPA decoding analyses
     
 - rsa:
     - `rsa.ipynb` code for running the representational similarity analysis. 
     
 - pol_mft
-    - `ind_diff_analyses.ipynb` code for splitting sample into liberals and conservatives; regression analyses predicting responses to Moral Foundation Questionnaire and Moral Foundation Vignettes from political orientation 
-    - `f_test.ipynb` code for generating and visualizing cluster peaks from F-test map. 
+    - `ideology_beh.ipynb` code for regression analyses predicting responses to Moral Foundation Questionnaire and Moral Foundation Vignettes from political orientation 
+    - `ideology_neural.ipynb` code for generating and visualizing cluster peaks from t-maps.
